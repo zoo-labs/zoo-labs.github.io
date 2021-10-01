@@ -64,7 +64,7 @@ $(document).ready(function () {
   });
 
   // Set the date we're counting down to
-  var countDownDate = new Date("Oct 1, 2021 11:11:00 GMT-700").getTime();
+  var countDownDate = new Date("Oct 1, 2021 13:11:00 GMT-700").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -88,7 +88,7 @@ $(document).ready(function () {
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);
-      el.innerHTML = "EXPIRED";
+      el.innerHTML = "";
     }
   }, 1000);
 });
