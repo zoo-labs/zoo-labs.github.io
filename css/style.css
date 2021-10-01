@@ -390,18 +390,6 @@ section {
     border-style: solid;
 }
 
-#countdown.button {
-    font-size: 14px !important;
-    margin: 35px 0;
-    padding: 6px 10px;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-    transition: all .3s linear;
-    display: inline-block;
-    background-color: #111;
-    color: white !important;
-}
-
 /* Play Button */
 
 #video-section {
@@ -800,7 +788,7 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 160px;
+    padding-top: 170px;
     padding-bottom: 100px;
 }
 
@@ -1690,40 +1678,6 @@ blockquote {
     height: 30px;
 }
 
-.simply-countdown {
-    /* The countdown */
-    font-size: 30px;
-    font-weight: bold;
-}
-.simply-countdown > .simply-section {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.simply-countdown > .simply-section > div {
-/* countdown block inner div */
-}
-
-.simply-countdown > .simply-section .simply-amount,
-.simply-countdown > .simply-section .simply-word {
-    display: block;
-    text-align: center;
-}
-
-.simply-countdown > .simply-section .simply-amount {
-/* amounts */
-}
-
-.simply-countdown > .simply-section .simply-word {
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.simply-days-section {
-    display: none !important;
-    
-}
-
 /*
  * Animations
  */
@@ -2377,7 +2331,6 @@ blockquote {
     }
 
 }
-
 
 
 
