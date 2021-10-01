@@ -1678,6 +1678,11 @@ blockquote {
     height: 30px;
 }
 
+#countdown {
+    font-weight: bold;
+    font-size: 34px;
+}
+
 /*
  * Animations
  */
@@ -2108,6 +2113,10 @@ blockquote {
 /* Landscape mobile & down
 ===============================*/
 @media (max-width: 480px) {
+
+    #countdown {
+        margin-top: 50px;
+    }
 
     #wrapper {
         margin:0;
