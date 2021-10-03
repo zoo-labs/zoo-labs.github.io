@@ -31,6 +31,12 @@ $(document).ready(function () {
     }
   });
 
+  $("#message-link").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#services").offset().top
+    }, 2000);
+  });
+
   /* Sticky Navigation */
   if (!!$.prototype.stickyNavbar) {
     $("#header").stickyNavbar();
