@@ -552,7 +552,7 @@ section {
     display: inline-block;
     width: 38px;
     height: 71px;
-    color: #111;
+    color: white;
     cursor: pointer;
     text-transform: uppercase;
     font-size: 22px;
@@ -583,10 +583,11 @@ section {
 
 #nav-trigger span:hover, .nav-solid #nav-trigger span.open:hover, .nav-solid #nav-trigger span:hover {
     opacity: 0.6;
+    color: white;
 }
 
 #nav-trigger span.open, #nav-trigger span.open:hover {
-    color: #111;
+    color: #999;
 }
 
 .nav-solid #nav-trigger span.open:hover {
@@ -614,7 +615,7 @@ nav#nav-mobile ul {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: #fff;
+    background-color: black;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -641,7 +642,7 @@ nav#nav-mobile li:last-child {
 nav#nav-mobile a {
     display: block;
     padding: 12px 0;
-    color: #333;
+    color: #333 !important;
     width: 100%;
     height: auto;
     line-height: normal;
@@ -654,7 +655,7 @@ nav#nav-mobile a {
 }
 
 nav#nav-mobile a:hover {
-    background: #fafafa;
+    background: black;
     opacity: 1;
 }
 
@@ -2341,6 +2342,24 @@ blockquote {
 
 }
 
+/* Egg Video */
 
+/* video background */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  /* page content */
+
+  
+  
 
 
