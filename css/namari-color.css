@@ -15,7 +15,7 @@
 
 
 body {
-    background:#fff;
+    background:black;
 }
 
 
@@ -53,15 +53,15 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Transparent Navigation Color on a Banner */
 
-#header nav a, #header i {
-    color:#111;
+#header nav a, #header i, #logo > h1 {
+    color:white !important;
 }
 
 
 /* Navigation Colors when the Navigation is sticky and solid */ 
 
 #header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
-    color:#333;
+    color:white;
 }
 
 
@@ -124,8 +124,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/zoo-banner.jpg") no-repeat center top;
-    background-size:cover;
+    /* background: url("/images/egg.mp4") no-repeat center top;
+    background-size:cover; */
 }
 
 
@@ -273,6 +273,7 @@ h6 {
 
 .button, input[type="submit"] {
     border-color:#111;
+    background-color: white;
 }
 
 
@@ -327,3 +328,4 @@ h6 {
 #landing-footer i {
     color:#999;
 }
+
